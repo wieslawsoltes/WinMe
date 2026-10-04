@@ -1,0 +1,20 @@
+{
+  "name": "@millennium/accessories",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Accessories package for Millennium Desktop",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.js",
+    "./*": "./src/*.js"
+  },
+  "files": [
+    "src",
+    "assets"
+  ],
+  "dependencies": {
+    "@millennium/core": "1.0.0",
+    "@millennium/filesystem": "1.0.0",
+    "@millennium/ui": "1.0.0"
+  }
+}

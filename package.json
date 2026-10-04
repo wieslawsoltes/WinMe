@@ -1,0 +1,26 @@
+{
+  "name": "millennium-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Modular browser reimplementation of the Windows Me desktop",
+  "workspaces": [
+    "dist/packages/*"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check.mjs",
+    "dev": "vite dist --host 0.0.0.0 --port 4173 --strictPort",
+    "build": "node scripts/build.mjs",
+    "format": "prettier --write dist tests scripts README.md COMPATIBILITY.md package.json"
+  },
+  "devDependencies": {
+    "fake-indexeddb": "^6.2.4",
+    "jsdom": "^26.1.0",
+    "prettier": "^3.6.2",
+    "vite": "6.4.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

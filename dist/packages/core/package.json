@@ -1,0 +1,15 @@
+{
+  "name": "@millennium/core",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Core package for Millennium Desktop",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.js",
+    "./*": "./src/*.js"
+  },
+  "files": [
+    "src",
+    "assets"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@millennium/ui",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ui package for Millennium Desktop",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.js",
+    "./*": "./src/*.js",
+    "./classic.css": "./src/classic.css"
+  },
+  "files": [
+    "src",
+    "assets"
+  ]
+}

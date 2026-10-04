@@ -1,0 +1,7 @@
+node_modules/
+.sites-runtime/
+.sites-cache/
+coverage/
+*.tar.gz
+*.zip
+.DS_Store

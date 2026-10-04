@@ -1,0 +1,21 @@
+{
+  "name": "@millennium/media",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Media package for Millennium Desktop",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.js",
+    "./*": "./src/*.js"
+  },
+  "files": [
+    "src",
+    "assets"
+  ],
+  "dependencies": {
+    "@millennium/core": "1.0.0",
+    "@millennium/filesystem": "1.0.0",
+    "@millennium/renderer": "1.0.0",
+    "@millennium/ui": "1.0.0"
+  }
+}
